@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library Management Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Library Management Page</h1>
+    </header>
+    <main>
+      <div class="filters">
+        <input type="text" id="titleFilter" placeholder="Title">
+        <input type="text" id="authorFilter" placeholder="Author">
+        <input type="text" id="subjectFilter" placeholder="Subject">
+        <input type="text" id="publishDateFilter" placeholder="Publish Date">
+      </div>
+      <table id="bookTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Subject</th>
+            <th>Publish Date</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <div id="pagination"></div>
+      <div id="filterCounters">
+        <span id="titleCount"></span>
+        <span id="authorCount"></span>
+        <span id="subjectCount"></span>
+        <span id="publishDateCount"></span>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Library Management Page</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
