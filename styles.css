@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+ .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 24%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  
+  th {
+    background-color: #eee;
+  }
+  
+  tfoot td {
+    text-align: center;
+  }
+  
+  #pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .pagination-link {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    width: 2rem;
+  }
+   
+ .pagination-link.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #filterCounters {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  #filterCounters span {
+    font-weight: bold;
+  }
+  
